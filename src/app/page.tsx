@@ -14,18 +14,25 @@ export default function Home() {
           <br></br>
         </div>
         <div className="mt-4">
-        <Heading text="Topics" />
+          <Heading text="Topics" />
           <ul className="list-disc pl-6 text-xl">
             <li>Tailwind CSS</li>
-            <ul className="
-            list-inside list-decimal px-2">
+            <ul
+              className="
+            list-inside list-decimal px-2"
+            >
               <li>Intro</li>
               <li>Font Style and Responsiveness</li>
               <li>Change or Customize Fonts</li>
               <li>Responsiveness Web Layout</li>
             </ul>
             <li>Assignment - Demo Facebook Login Page</li>
-            <li>Links : Portfolio and Todo List</li>
+            <li>
+              Links :{" "}
+              <Link href="https://mzs-portfolio-m2.vercel.app/">Portfolio</Link>{" "}
+              and{" "}
+              <Link href="https://mzs-portfolio-m2.vercel.app/">Todo List</Link>
+            </li>
           </ul>
         </div>
 
@@ -34,25 +41,26 @@ export default function Home() {
             Previous Classwork{" "}
             <Link
               className="text-blue-800 underline"
-              href="https://github.com/zubairxshah/classwork-oct18"
+              href="https://github.com/zubairxshah/classwork-oct25"
             >
               GitHub Repo
             </Link>{" "}
             and{" "}
             <Link
               className="text-blue-800 underline"
-              href="https://classwork-oct18.vercel.app/"
+              href="https://classwork-oct25.vercel.app/"
             >
               Vercel App
             </Link>
             .
           </p>
           <p className="text-red-800 mb-4">
-            Note: Visit my GitHub Repo for understanding the code mechanism.
+            Note: Visit my latest GitHub Repo for understanding the code
+            mechanism.
           </p>
           <div>
             <Link
-              href="https://github.com/zubairxshah/classwork-oct25"
+              href="https://github.com/zubairxshah/classwork-nov08"
               passHref
             >
               <button className="text-white bg-[#90cc75] hover:bg-black hover:text-[#90cc75] px-3 py-2 rounded-md text-md font-medium">
